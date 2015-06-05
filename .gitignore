@@ -1,3 +1,5 @@
+# I do not care about files I have open or are being run.
 *.swp
 *.pyc
+# I do not want my keys to be tracked.
 config.py
