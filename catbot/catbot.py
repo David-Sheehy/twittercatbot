@@ -16,5 +16,5 @@ t = Twitter(auth=OAuth(ACCESS_KEY,ACCESS_SECRET,CONSUMER_KEY,CONSUMER_SECRET))
 # get recent messages
 
 # print a status message
-t.status.update(random.choice(RESPONSES_GOOD))
+t.statuses.update(status=random.choice(RESPONSES_GOOD))
 # go back to sleep
